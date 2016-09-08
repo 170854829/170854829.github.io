@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>I ♥ N.Y</title>
 
-<link href = "https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet" rel = "stylesheet">
+<link href = "https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet" rel = "stylesheet"</head></head>
 
 
 <style>
@@ -163,12 +163,16 @@ nav ul li{
 	margin: 5px 100px 5px; 
 	text-transform: uppercase;  
 	text-decoration:line-through;
-	font-size: 22px;
+	font-size: 17px;
 	} 
 	
 	
-a contácto{
-	text-decoration:none;
+nav ul li a:hover,
+nav ul li a:focus,
+nav ul li a:active,
+nav ul li a.active { background-color:#000000; color:#fff;}
+
+nav ul li a { text-decoration:none; color:#000;}
 	
 footer {} 
 
@@ -230,10 +234,10 @@ width: 20%;
 <div id="header">
  <nav class="menu"> 
 	 <ul>
-     <li>new york</li>
- 	 <li>historia</li>
-     <li>lugares</li>  
-     <li><a href="contacto">contácto</a></li> 
+     <li class="active"><a href="#">new york</a></li>
+ 	 <li><a href="#">historia</a></li>
+     <li><a href="#">lugares</a></li>  
+     <li><a href="#">contácto</a></li> 
      </ul> 
  
  
@@ -297,4 +301,3 @@ width: 20%;
 
 
 </html>
-
